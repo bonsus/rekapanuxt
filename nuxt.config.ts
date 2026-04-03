@@ -1,0 +1,35 @@
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+  compatibilityDate: '2026-03-31',
+  devtools: { enabled: true },
+
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@pinia/nuxt',
+  ],
+
+  // Register all components by filename only (no folder-prefix like UiAppModal → AppModal)
+  components: [
+    { path: '~/components', pathPrefix: false },
+  ],
+
+  css: ['~/assets/css/main.css'],
+
+  runtimeConfig: {
+    // Private - only available server-side
+    jwtSecret: '',
+    jwtRefreshSecret: '',
+    // Public - exposed to client
+    public: {
+      appName: 'RekapNuxt',
+    },
+  },
+
+  typescript: {
+    strict: true,
+  },
+
+  pinia: {
+    storesDirs: ['./stores/**'],
+  },
+})

@@ -1,0 +1,1 @@
+import{q as u}from"./bJpK2Deq.js";const e=u(!1);function o(){function a(){e.value=!e.value}function n(){e.value=!1}function r(){e.value=!0}return{isSidebarOpen:e,toggleSidebar:a,closeSidebar:n,openSidebar:r}}export{o as u};

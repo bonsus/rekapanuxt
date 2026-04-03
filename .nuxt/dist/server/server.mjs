@@ -1,0 +1,1 @@
+export { default } from "file:///Users/macbookpro/Documents/1.Saas/REKAPA/rekapnuxt/node_modules/@nuxt/vite-builder/dist/vite-node-entry.mjs"
