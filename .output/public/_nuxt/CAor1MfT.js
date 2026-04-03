@@ -1,1 +1,0 @@
-import{g as r,k as s,n,c as t,a,o}from"./bJpK2Deq.js";const d={class:"min-h-screen flex items-center justify-center bg-gray-50"},u=r({__name:"index",setup(l){return s(()=>n("/dashboard/stores",{replace:!0})),(c,e)=>(o(),t("div",d,[...e[0]||(e[0]=[a("div",{class:"w-8 h-8 border-4 border-blue-200 border-t-blue-600 rounded-full animate-spin"},null,-1)])]))}});export{u as default};
