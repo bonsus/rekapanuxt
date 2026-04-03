@@ -201,7 +201,7 @@ onMounted(() => {
     <!-- Main content area -->
     <div class="flex-1 flex flex-col min-w-0 overflow-hidden">
       <!-- Mobile top bar (hamburger) -->
-      <div class="lg:hidden flex items-center gap-3 px-4 py-3 bg-white border-b border-gray-200 shrink-0">
+      <div class="hidden max-lg:flex items-center gap-3 px-4 py-3 bg-white border-b border-gray-200 shrink-0">
         <button
           class="p-1.5 rounded-lg text-gray-500 hover:bg-gray-100 transition-colors"
           aria-label="Toggle menu"
